@@ -1,5 +1,5 @@
 
-.. IWahjoedi post example, created by `ablog start` on Nov 04, 2019.
+.. iwahjoedi post example, created by `ablog start` on Nov 04, 2019.
 
 .. post:: Nov 04, 2019
    :tags: atag

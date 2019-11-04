@@ -1,5 +1,5 @@
 
-.. iwahjoedi index file, created by `ablog start` on Mon Nov  4 22:29:39 2019.
+.. IWahjoedi index file, created by `ablog start` on Mon Nov  4 21:33:44 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -26,4 +26,4 @@ Here is a list of most recent posts:
    :hidden:
 
    about.rst
-
+   second-post.rst

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# IWahjoedi build configuration file, created by
-# `ablog start` on Mon Nov  4 21:33:44 2019.
+# iwahjoedi build configuration file, created by
+# `ablog start` on Mon Nov  4 22:29:39 2019.
 #
 # Note that not all possible configuration values are present in this file.
 # All configuration values have a default; values that are commented out
@@ -19,7 +19,7 @@ import alabaster
 #blog_path = 'blog'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.
-blog_title = u'IWahjoedi Blog'
+blog_title = u'iwahjoedi Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
@@ -186,7 +186,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'IWahjoedi'
+project = u'iwahjoedi'
 copyright = u'2019, I.Wahjoedi'
 author = u'I.Wahjoedi'
 
@@ -339,6 +339,6 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'IWahjoedidoc'
+htmlhelp_basename = 'iwahjoedidoc'
 
 
