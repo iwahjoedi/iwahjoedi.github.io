@@ -26,4 +26,4 @@ Here is a list of most recent posts:
    :hidden:
 
    about.rst
-
+   second-post.rst
