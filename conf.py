@@ -23,7 +23,7 @@ blog_title = u'iwahjoedi Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = u''
+blog_baseurl = u'https://iwahjoedi.github.io/'
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
@@ -35,7 +35,7 @@ blog_baseurl = u''
 # links. Dictionary keys are what should be used in ``post`` directive
 # to refer to the author.  Default is ``{}``.
 blog_authors = {
-    'I.Wahjoedi': ('I.Wahjoedi', None),
+    'I.Wahjoedi': ('I.Wahjoedi', 'ID'),
 }
 
 
@@ -341,4 +341,4 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'iwahjoedidoc'
 
-
+github_pages = 'iwahjoedi'
