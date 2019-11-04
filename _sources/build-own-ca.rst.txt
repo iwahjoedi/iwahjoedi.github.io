@@ -1,0 +1,43 @@
+
+Build Own CA
+============
+
+.. post:: Nov 05, 2019
+   :tags:
+   :category:
+
+
+Make your own Root CA
+#####################
+
+.. topic:: Create Root Pair CA
+
+	Acting as a certificate authority (CA) means dealing with cryptographic pairs of private keys and public certificates.
+
+Prepare the directory
+---------------------
+.. code-block:: bash
+    :linenos:
+
+mkdir -p root/ca/{certs, crl, newcerts, private}
+cd root/ca
+chmod 700 private
+touch index.txt
+echo 1000 > serial
+
+Prepare the configuration file
+------------------------------
+
+
+
+## CA
+CA: Myracom Ltd
+
+
+## CA Intermediate
+CAI : Kalian CV
+
+## 
+
+Req
+

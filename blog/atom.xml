@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">iwahjoedi Blog</title>
   <id>https://iwahjoedi.github.io/blog/atom.xml</id>
-  <updated>2019-11-04T00:00:00Z</updated>
+  <updated>2019-11-05T00:00:00Z</updated>
   <link href="https://iwahjoedi.github.io/" />
   <link href="https://iwahjoedi.github.io/blog/atom.xml" rel="self" />
   <generator uri="http://ablog.readthedocs.org" version="0.9.5">ABlog</generator>
+  <entry xml:base="https://iwahjoedi.github.io/blog/atom.xml">
+    <title type="text">Build USB Live Arch</title>
+    <id>https://iwahjoedi.github.io/build-usb-live-arch/</id>
+    <updated>2019-11-05T00:00:00Z</updated>
+    <published>2019-11-05T00:00:00Z</published>
+    <link href="https://iwahjoedi.github.io/build-usb-live-arch/" />
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry xml:base="https://iwahjoedi.github.io/blog/atom.xml">
+    <title type="text">Build Own CA</title>
+    <id>https://iwahjoedi.github.io/build-own-ca/</id>
+    <updated>2019-11-05T00:00:00Z</updated>
+    <published>2019-11-05T00:00:00Z</published>
+    <link href="https://iwahjoedi.github.io/build-own-ca/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Acting as a certificate authority (CA) means dealing with cryptographic pairs of private keys and public certificates.&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="https://iwahjoedi.github.io/blog/atom.xml">
     <title type="text">First Post</title>
     <id>https://iwahjoedi.github.io/first-post/</id>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>About I.Wahjoedi &#8212; iwahjoedi beta documentation</title>
+    <title>Build Own CA &#8212; iwahjoedi beta documentation</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
@@ -12,11 +12,9 @@
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <script type="text/javascript" src="../_static/language_data.js"></script>
-    <link rel="author" title="About these documents" href="#" />
+    <link rel="author" title="About these documents" href="../about/" />
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
-    <link rel="next" title="Second Post" href="../second-post/" />
-    <link rel="prev" title="Welcome to I.Wahjoedi’s Blog!" href="../" />
   
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -49,12 +47,64 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="about-i-wahjoedi">
-<span id="about"></span><h1>About I.Wahjoedi<a class="headerlink" href="#about-i-wahjoedi" title="Permalink to this headline">¶</a></h1>
-<p>The world wants to know more about you.</p>
+  <div class="section" id="build-own-ca">
+<h1>Build Own CA<a class="headerlink" href="#build-own-ca" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="make-your-own-root-ca">
+<h2>Make your own Root CA<a class="headerlink" href="#make-your-own-root-ca" title="Permalink to this headline">¶</a></h2>
+<div class="topic">
+<p class="topic-title first">Create Root Pair CA</p>
+<p>Acting as a certificate authority (CA) means dealing with cryptographic pairs of private keys and public certificates.</p>
+</div>
+<div class="section" id="prepare-the-directory">
+<h3>Prepare the directory<a class="headerlink" href="#prepare-the-directory" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
+</pre></div>
+</td></tr></table></div>
+<p>mkdir -p root/ca/{certs, crl, newcerts, private}
+cd root/ca
+chmod 700 private
+touch index.txt
+echo 1000 &gt; serial</p>
+</div>
+<div class="section" id="prepare-the-configuration-file">
+<h3>Prepare the configuration file<a class="headerlink" href="#prepare-the-configuration-file" title="Permalink to this headline">¶</a></h3>
+<p>## CA
+CA: Myracom Ltd</p>
+<p>## CA Intermediate
+CAI : Kalian CV</p>
+<p>##</p>
+<p>Req</p>
+</div>
+</div>
 </div>
 
   <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  
+  <a href="../first-post/">
+    <i class="fa fa-arrow-circle-left"></i>
+    First Post
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  
+  <a href="../build-usb-live-arch/">
+    Build USB Live Arch
+    <i class="fa fa-arrow-circle-right"></i>
+  </a>
+  </span>
+  
+</div>
+
   
   
   </div>
@@ -75,10 +125,34 @@
 
 
 
+  
+  
+  <h2>
+  
+  <i class="fa fa-calendar"></i>
+    05 November 2019
+  
+  </h2>
+
+  <ul>
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  </ul>
+
 
 <h3>Navigation</h3>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">About I.Wahjoedi</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/">About I.Wahjoedi</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../second-post/">Second Post</a></li>
 </ul>
 
@@ -86,6 +160,8 @@
   <h3><a href="../blog/">Recent Posts</a></h3>
   <ul>
     
+    
+      <li><a href="../build-usb-live-arch/">05 November - Build USB Live Arch</a></li>
     
       <li><a href="../first-post/">04 November - First Post</a></li>
     
@@ -141,7 +217,7 @@
   <ul>
   
     
-    <li><a href="../blog/2019/">2019 (1)</a></li>
+    <li><a href="../blog/2019/">2019 (3)</a></li>
     
   
     
@@ -172,7 +248,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../_sources/about.rst.txt"
+      <a href="../_sources/build-own-ca.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
