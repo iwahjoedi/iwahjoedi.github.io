@@ -1,10 +1,10 @@
 
-.. iwahjoedi index file, created by `ablog start` on Mon Nov  4 22:29:39 2019.
+.. Githubpages index file, created by `ablog start` on Mon Nov  4 12:48:00 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to I.Wahjoedi's Blog!
-=====================================
+Welcome to Indra Wahyudi's Blog!
+=======================================
 
 Hello World! Find more about me here: :ref:`about`
 
@@ -26,4 +26,4 @@ Here is a list of most recent posts:
    :hidden:
 
    about.rst
-   second-post.rst
+
